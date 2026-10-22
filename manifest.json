@@ -1,0 +1,26 @@
+{
+  "name": "Đại Long Chiến",
+  "short_name": "Đại Long Chiến",
+  "description": "Game chibi chiến đấu 100 ải với những vị anh hùng",
+  "start_url": "/dailongchien/",
+  "scope": "/dailongchien/",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "landscape",
+  "background_color": "#050510",
+  "theme_color": "#0a0515",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/dtnhan151-maker/dailongchien/main/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/dtnhan151-maker/dailongchien/main/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
