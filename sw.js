@@ -1,6 +1,6 @@
-var GHPATH = '/-I-LONG-CHI-N';
+var GHPATH = '/dailongchien';
 var APP_PREFIX = 'dailongchien_';
-var VERSION = 'version_02'; 
+var VERSION = 'version_03'; 
 var URLS = [
   GHPATH + '/',
   GHPATH + '/index.html',
