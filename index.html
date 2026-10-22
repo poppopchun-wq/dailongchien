@@ -7817,6 +7817,15 @@ setTimeout(function() {
 }, 500);
 
 console.log('✓ Đợt 5 nhẹ - Phần 3/3: Voice + Mixer sẵn sàng');
+
+/* ===== ĐĂNG KÝ SERVICE WORKER (PWA) ===== */
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/-I-LONG-CHI-N/sw.js', { scope: '/-I-LONG-CHI-N/' })
+      .then(function(reg) { console.log('✅ Service Worker OK:', reg.scope); })
+      .catch(function(err) { console.warn('❌ Service Worker lỗi:', err); });
+  });
+}
 </script>
 </body>
 </html>
